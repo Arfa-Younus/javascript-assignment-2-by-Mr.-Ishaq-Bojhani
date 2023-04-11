@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .contentBox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: row;
+            background: black;
+            color: rgb(16, 243, 235);
+        }
+
+        button {
+            background: rgb(241, 249, 8);
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            margin: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contentBox">
+        <button onclick="changeBackground('steelblue')">Blue</button>
+        <button onclick="changeBackground('darkred')">Red</button>
+        <button onclick="changeBackground('lightgreen')">Green</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
